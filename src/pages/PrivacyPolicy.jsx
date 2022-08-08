@@ -8,15 +8,7 @@ import { MdEditCalendar } from "react-icons/md";
 const PrivacyPolicy = () => {
   return (
     <>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS3CLZ3JKN"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'G-MS3CLZ3JKN');
-      </script>
-
+    
       <GlobalStyles/>
       <Navbar/>
 

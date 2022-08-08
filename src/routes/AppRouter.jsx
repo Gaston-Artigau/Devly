@@ -5,8 +5,16 @@ import IndexScreen from '../pages/IndexScreen'
 import PrivacyPolicy from '../pages/PrivacyPolicy'
 import ServicesScreen from '../pages/ServicesScreen'
 import WorkScreen from '../pages/WorkScreen'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize("G-MS3CLZ3JKN"); // OUR_TRACKING_ID
 
 const AppRouter = () => {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <Router>
         <Routes>

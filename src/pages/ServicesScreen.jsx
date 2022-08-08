@@ -9,15 +9,7 @@ import { Section1,  ChildSection2, Article1Section2, Article2Section2, Article3S
 const ServicesScreen = () => {
   return (
     <>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS3CLZ3JKN"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'G-MS3CLZ3JKN');
-        </script>
-
+    
         <GlobalStyles/>
         <Navbar/>
         <main>
