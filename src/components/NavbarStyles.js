@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import { Link, animateScroll as scroll } from "react-scroll";
 
+export const es = scroll
+
 export const Nav = styled.nav`
     background-color: #181819;
     height: 90px;
