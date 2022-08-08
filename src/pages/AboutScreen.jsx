@@ -8,6 +8,15 @@ import { Child2Section2, ChildSection2, Section1 } from './AboutStyles'
 const AboutScreen = () => {
   return (
     <>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MS3CLZ3JKN"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-MS3CLZ3JKN');
+        </script>
+
         <GlobalStyles/>
         <Navbar/>
         <main>
