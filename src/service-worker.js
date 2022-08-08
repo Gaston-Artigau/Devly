@@ -6,7 +6,8 @@ import { StaleWhileRevalidate } from 'workbox-strategies';
 
 clientsClaim();
 
-precacheAndRoute(window.self.__WB_MANIFEST);
+// eslint-disable-next-line no-restricted-globals
+precacheAndRoute(self.__WB_MANIFEST);
 
 const fileExtensionRegexp = new RegExp('/[^/?]+\\.[^/]+$');
 registerRoute(
