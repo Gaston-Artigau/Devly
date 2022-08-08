@@ -6,8 +6,7 @@ import { StaleWhileRevalidate } from 'workbox-strategies';
 
 clientsClaim();
 
-// eslint-disable-next-line no-restricted-globals
-precacheAndRoute(window.self.__WB_MANIFEST);
+precacheAndRoute(window.self.__WB_MANIFEST);//eslint-disable-line no-restricted-globals
 
 const fileExtensionRegexp = new RegExp('/[^/?]+\\.[^/]+$');
 registerRoute(
@@ -46,9 +45,8 @@ registerRoute(
 
 // This allows the web app to trigger skipWaiting via
 // registration.waiting.postMessage({type: 'SKIP_WAITING'})
-// eslint-disable-next-line no-restricted-globals
-window.self.addEventListener('message', (event) => {
+window.self.addEventListener('message', (event) => {//eslint-disable-line no-restricted-globals
   if (event.data && event.data.type === 'SKIP_WAITING') {
-    window.self.skipWaiting();
+    window.self.skipWaiting();//eslint-disable-line no-restricted-globals
   }
 });
