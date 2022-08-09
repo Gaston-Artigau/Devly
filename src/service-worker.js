@@ -45,7 +45,7 @@ registerRoute(
 
 // This allows the web app to trigger skipWaiting via
 // registration.waiting.postMessage({type: 'SKIP_WAITING'})
-windoe.self.addEventListener('message', (event) => {//eslint-disable-line no-restricted-globals
+window.self.addEventListener('message', (event) => {//eslint-disable-line no-restricted-globals
   if (event.data && event.data.type === 'SKIP_WAITING') {
     window.self.skipWaiting();//eslint-disable-line no-restricted-globals
   }
