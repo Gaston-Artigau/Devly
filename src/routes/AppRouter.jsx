@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import AboutScreen from '../pages/AboutScreen'
 import IndexScreen from '../pages/IndexScreen'
 import PrivacyPolicy from '../pages/PrivacyPolicy'
@@ -11,11 +11,9 @@ ReactGA.initialize("G-MS3CLZ3JKN"); // OUR_TRACKING_ID
 
 const AppRouter = () => {
 
-  const location = useLocation()
-
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
-  }, [location]);
+  }, []);
 
   return (
     <Router>
