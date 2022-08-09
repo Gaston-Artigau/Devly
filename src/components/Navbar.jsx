@@ -15,7 +15,7 @@ const Navbar = () => {
     <header>
         <Nav className={`${clicked ? 'actived-nav' : ''}`}>
           <NavLink to='/'>
-            <img src="/LogoDevly.png" alt='logo' style={{width: '90px'}}/>
+            <img src="/LogoDevly.png" alt='logo' style={{width: '90px', height: '100%'}}/>
           </NavLink>
         
           <NavLinks className={`${clicked ? 'actived' : ''}`}> 

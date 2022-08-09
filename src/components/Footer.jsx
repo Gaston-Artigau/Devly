@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <FooterTemplate>
       <div>
-        <NavLink to='/'><img src="/LogoDevly.png" alt='logo' style={{width: '90px'}}/></NavLink>
+        <NavLink to='/'><img src="/LogoDevly.png" alt='logo' style={{width: '90px', height: '100%'}}/></NavLink>
         <p>Estamos listos para cualquier desafío. Estas listo para: ¡subir al siguiente nivel!</p>
         <div className='div-contact' style={{flexDirection: 'row'}}>
           <a href='mailto:gastonartigau@gmail.com'>gastonartigau@gmail.com</a>
