@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import AboutScreen from '../pages/AboutScreen'
 import IndexScreen from '../pages/IndexScreen'
