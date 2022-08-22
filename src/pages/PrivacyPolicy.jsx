@@ -59,7 +59,7 @@ const PrivacyPolicy = () => {
               <a href='https://tools.google.com/dlpage/gaoptout?hl=en'> https://tools.google.com/dlpage</a></b></li>
             <li><b>HubSpot Analytics & CRM</b> (HubSpot, Inc.)
             Datos personales recopilados: dirección de correo electrónico, número de teléfono, nombre, apellido, razón social, Cookies y Datos de uso.
-              <b><a href='https://www.hubspot.com/legal/privacy-policy'>https://www.hubspot.com/legal</a></b></li>
+              <b><a href='https://legal.hubspot.com/privacy-policy'>https://www.hubspot.com/legal</a></b></li>
             <li><b>Linkedin Audience Network</b> (LinkedIn Corporation)
             Datos Personales recogidos: Cookies y Datos de Uso.
                 <b><a href='https://www.linkedin.com/legal/privacy-policy'>https://www.linkedin.com/legal</a> | <a href='https://www.linkedin.com/psettings/advertising/websites-visited'>https://www.linkedin.com/psettings</a></b></li>
