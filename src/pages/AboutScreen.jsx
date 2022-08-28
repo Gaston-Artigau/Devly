@@ -19,7 +19,7 @@ const AboutScreen = () => {
             <ChildSection2>
               <div>
                 <h2><span>Quiénes</span> somos.</h2>
-                <p>Como equipo de programadores, somos afortunados: convertimos nuestra pasión en un negocio. Respiramos matemáticas, por lo que la codificación y la resolución de problemas son algo natural para nosotros. No es solo nuestro trabajo: es nuestra pasión!</p>
+                <p>Somos un emprendimiento de programación, desarrollo web, diseño web y posicionamiento SEO radicado en la ciudad de Pergamino, Buenos Aires. <br/>Nuestra principal impronta es promover el desarrollo local, ayudando a emprendimientos, pymes o profesionales a incorporarse en el mundo digital, potenciando su crecimiento y visibilidad. Somos consientes de que no es una tarea fácil, pero estamos dispuestos a dar todo de nosotros para hacerlo posible.</p>
               </div>
               <img src='/img-team.jpg' style={{width: '95%', height: '300px'}} alt='imagen quienes somos'/>
             </ChildSection2>
@@ -28,7 +28,7 @@ const AboutScreen = () => {
             <img src='/img-team3.jpg' style={{width: '95%', height: '300px'}} alt='imagen que hacemos'/>
               <div>
                 <h2><span>Qué</span> hacemos.</h2>
-                <p>Combinamos la creatividad con la lógica para construir soluciones confiables e impresionantes. Hoy en día, cada negocio tiene que mejorar sus eficiencias e imagen digital y ese es el desafío con el que podemos ayudarlo. Podemos crear nuevos productos digitales desde cero o actualizar los existentes para hacer frente a las nuevas demandas.</p>
+                <p>Combinamos la creatividad con la lógica para construir soluciones confiables e impresionantes. Hoy en día, cada negocio tiene que mejorar sus eficiencias e imagen digital y ese es el desafío con el que podemos ayudarlo.<br/> Podemos crear nuevos productos digitales desde cero o actualizar los existentes para hacer frente a las nuevas demandas. Nuestros proyectos no solo se basan en Argentina, sino que también hemos realizado proyectos con clientes de todo el mundo.</p>
               </div>
             </Child2Section2>
           </Section2>

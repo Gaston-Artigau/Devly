@@ -34,13 +34,13 @@ const Services = () => {
                 <MdOutlineQueryStats style={{fontSize: '42px', color: '#7a66c7', flexShrink: '0', marginRight:'15px'}}/>
                 <div>
                   <h3>Data Engineering</h3>
-                  <p>Definitivamente sabemos cómo crear valor adicional a partir de sus datos mediante la producción de informes automatizados de diversa complejidad.</p>
+                  <p>Definitivamente, sabemos cómo crear valor adicional a partir de sus datos mediante la producción de informes automatizados de diversa complejidad. También nos especializamos en SEO, para que tu web tenga la mejor conversión de tráfico.</p>
                 </div>
               </li>
               <li>
                 <TbDatabase style={{fontSize: '42px', color: '#7a66c7', flexShrink: '0', marginRight:'15px'}}/>
                 <div>
-                  <h3>Server-Side</h3>
+                  <h3>Server-Side and testing</h3>
                   <p>Nuestra experiencia de desarrollo del lado del servidor se trata de hacer productos que funcionen sin problemas, cumplan con todos los requisitos comerciales, optimizados, seguros y protegidos. La comprensión profunda de cómo funcionan las cosas internamente ayuda a que nuestras soluciones sean lo más efectivas posible.</p>
                 </div>
               </li>

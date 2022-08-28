@@ -7,6 +7,9 @@ import Form from '../components/Form';
 import Services from '../components/Services';
 
 const IndexScreen = () => {
+  
+  console.log('Que onda tu día?')
+
   return (
     <>
       <GlobalStyles/>
@@ -25,7 +28,7 @@ const IndexScreen = () => {
           <ChildSection2>
             <img src="/intermediario.jpg" alt="img" style={{width: '360px', height: '100%', margin: 'auto', borderRadius: '4px'}}/>
             <div>
-              <h2>Eliminar al <span>intermediario</span></h2>
+              <h2>Elimina al <span>intermediario</span></h2>
               <p>Nuestros clientes trabajan directamente con nosotros, eliminando intermediarios, lo cual es extremadamente eficiente y rentable. Nunca subcontratamos y entre nosotros tenemos cubiertas las distintas areas del desarrollo.</p>
             </div>
           </ChildSection2>

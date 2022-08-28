@@ -9,7 +9,6 @@ const Navbar = () => {
   const handleClick = () => {
     setClicked(!clicked) //toggle
   }
-  console.log('Que onda tu día?')
   
   return (
     <header>
